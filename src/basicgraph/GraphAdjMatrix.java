@@ -52,7 +52,7 @@ public class GraphAdjMatrix extends Graph {
 	 * @param w the index of the end point for the edge.  
 	 */	
 	public void implementAddEdge(int v, int w) {
-		adjMatrix[v][w] += 1;
+		adjMatrix[v][w] = 1;
 	}
 	
 	/** 
